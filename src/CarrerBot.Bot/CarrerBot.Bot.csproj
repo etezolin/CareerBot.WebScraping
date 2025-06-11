@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<UserSecretsId>Bot70127C53-4A6F-774C-4457-AC63-4730-9CCF-55C2579D61CA</UserSecretsId>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Compile Remove="log\**" />
+		<Content Remove="log\**" />
+		<EmbeddedResource Remove="log\**" />
+		<None Remove="log\**" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CarrerBot.Infra.IoC\CarrerBot.Infra.IoC.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Remove="log\**" />
+		<Content Remove="log\**" />
+		<EmbeddedResource Remove="log\**" />
+		<None Remove="log\**" />
+	</ItemGroup>
+
+</Project>

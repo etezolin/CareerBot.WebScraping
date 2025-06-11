@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrerBot.Bot", "CarrerBot.Bot\CarrerBot.Bot.csproj", "{94A3F167-B250-1154-8BE8-A17670B29CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrerBot.Infra.Data", "CarrerBot.Infra.Data\CarrerBot.Infra.Data.csproj", "{7E94C00C-AE16-0366-8234-9E5A9DB0A1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrerBot.Infra.IoC", "CarrerBot.Infra.IoC\CarrerBot.Infra.IoC.csproj", "{E891908A-B166-3994-9C7C-CD971C3DC0C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrerBot.Application", "CarrerBot.Application\CarrerBot.Application.csproj", "{9A3B6D74-0AC5-0265-3DAB-EEC4CDE63CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarrerBot.Domain", "CarrerBot.Domain\CarrerBot.Domain.csproj", "{BB192388-29C7-8104-AA7B-3C223A5BB380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94A3F167-B250-1154-8BE8-A17670B29CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94A3F167-B250-1154-8BE8-A17670B29CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94A3F167-B250-1154-8BE8-A17670B29CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94A3F167-B250-1154-8BE8-A17670B29CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E94C00C-AE16-0366-8234-9E5A9DB0A1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E94C00C-AE16-0366-8234-9E5A9DB0A1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E94C00C-AE16-0366-8234-9E5A9DB0A1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E94C00C-AE16-0366-8234-9E5A9DB0A1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E891908A-B166-3994-9C7C-CD971C3DC0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E891908A-B166-3994-9C7C-CD971C3DC0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E891908A-B166-3994-9C7C-CD971C3DC0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E891908A-B166-3994-9C7C-CD971C3DC0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A3B6D74-0AC5-0265-3DAB-EEC4CDE63CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A3B6D74-0AC5-0265-3DAB-EEC4CDE63CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A3B6D74-0AC5-0265-3DAB-EEC4CDE63CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A3B6D74-0AC5-0265-3DAB-EEC4CDE63CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB192388-29C7-8104-AA7B-3C223A5BB380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB192388-29C7-8104-AA7B-3C223A5BB380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB192388-29C7-8104-AA7B-3C223A5BB380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB192388-29C7-8104-AA7B-3C223A5BB380}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5D5DE6D2-3FC2-45C2-8DE5-DACE912DB5F4}
+	EndGlobalSection
+EndGlobal
